@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/onionimg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image6" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Onion"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="12dp"
+        android:layout_height="100dp"
+        android:id="@+id/cardview">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kilo"
+            android:text="1kg"
+            android:layout_marginTop="20dp"
+
+            android:textSize="20sp"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kilorupees"
+            android:text="₹25"
+            android:textSize="19sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kilooffer"
+            android:text="40% Off"
+            android:textSize="19sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gram"
+            android:text="20% Off"
+            android:textSize="19sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="60dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gramrupees"
+            android:text="₹16.7"
+            android:textSize="19sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="60dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gramoffer"
+            android:text="500g"
+            android:textSize="19sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="60dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
